@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDotNet", "CSharpDotNe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDebugging", "DotNetDebugging\DotNetDebugging.csproj", "{57C72C1E-1191-4CA5-AAB1-3ECD869BEEDD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mslearn-dotnet-files-cse325", "mslearn-dotnet-files-cse325", "{C3D87254-3CFD-392F-D49C-48FF5EC4AA65}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mslearn-dotnet-files", "mslearn-dotnet-files-cse325\mslearn-dotnet-files.csproj", "{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
