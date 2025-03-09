@@ -1,0 +1,14 @@
+D:\CSE 325\DotNetDebugging\bin\Debug\net9.0\DotNetDebugging.exe
+D:\CSE 325\DotNetDebugging\bin\Debug\net9.0\DotNetDebugging.deps.json
+D:\CSE 325\DotNetDebugging\bin\Debug\net9.0\DotNetDebugging.runtimeconfig.json
+D:\CSE 325\DotNetDebugging\bin\Debug\net9.0\DotNetDebugging.dll
+D:\CSE 325\DotNetDebugging\bin\Debug\net9.0\DotNetDebugging.pdb
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.AssemblyInfoInputs.cache
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.AssemblyInfo.cs
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.csproj.CoreCompileInputs.cache
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.dll
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\refint\DotNetDebugging.dll
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.pdb
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\DotNetDebugging.genruntimeconfig.cache
+D:\CSE 325\DotNetDebugging\obj\Debug\net9.0\ref\DotNetDebugging.dll
