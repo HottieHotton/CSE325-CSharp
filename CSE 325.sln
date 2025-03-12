@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDotNet", "CSharpDotNe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDebugging", "DotNetDebugging\DotNetDebugging.csproj", "{57C72C1E-1191-4CA5-AAB1-3ECD869BEEDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoPizza", "ContosoPizza\ContosoPizza.csproj", "{B549BBC2-75B4-453E-B244-AD851202344C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,23 +59,32 @@ Global
 		{57C72C1E-1191-4CA5-AAB1-3ECD869BEEDD}.Release|x64.Build.0 = Release|Any CPU
 		{57C72C1E-1191-4CA5-AAB1-3ECD869BEEDD}.Release|x86.ActiveCfg = Release|Any CPU
 		{57C72C1E-1191-4CA5-AAB1-3ECD869BEEDD}.Release|x86.Build.0 = Release|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Debug|x64.Build.0 = Debug|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Debug|x86.Build.0 = Debug|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Release|x64.ActiveCfg = Release|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Release|x64.Build.0 = Release|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Release|x86.ActiveCfg = Release|Any CPU
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F}.Release|x86.Build.0 = Release|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Debug|x64.Build.0 = Debug|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Debug|x86.Build.0 = Debug|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Release|x64.ActiveCfg = Release|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Release|x64.Build.0 = Release|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Release|x86.ActiveCfg = Release|Any CPU
+		{ABCFD1E8-E858-4F76-8F99-3D0E29B32A91}.Release|x86.Build.0 = Release|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Debug|x64.Build.0 = Debug|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Debug|x86.Build.0 = Debug|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x64.ActiveCfg = Release|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x64.Build.0 = Release|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{BF2FE5AB-0940-4CD6-8A0B-930288B0864F} = {C3D87254-3CFD-392F-D49C-48FF5EC4AA65}
 	EndGlobalSection
 EndGlobal
