@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoPizza", "ContosoPizza\ContosoPizza.csproj", "{B549BBC2-75B4-453E-B244-AD851202344C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x64.Build.0 = Release|Any CPU
 		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x86.ActiveCfg = Release|Any CPU
 		{B549BBC2-75B4-453E-B244-AD851202344C}.Release|x86.Build.0 = Release|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Release|x64.Build.0 = Release|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9671B9A-17C2-4B4C-84BA-C0395B9FCC42}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
