@@ -1,0 +1,109 @@
+@inject GameState State
+
+<HeadContent>
+    <style>
+        :root {
+            --board-bg: yellow;
+            /** the color of the board **/
+            --player1: red;
+            /** Player 1's piece color **/
+            --player2: blue;
+            /** Player 2's piece color **/
+        }
+    </style>
+</HeadContent>
+<div>
+    <span>Player 1 Wins: @p1</span>
+    <br />
+    <span>Player 2 Wins: @p2</span>
+    <br />
+</div>
+<article>
+    @winnerMessage
+    <br />
+    <button style="@ResetStyle" @onclick="ResetGame">Reset the game</button>
+    <br />
+    <span class="alert-danger">@errorMessage</span>
+    <br />
+    <span class="alert-info">@CurrentTurn</span>
+</article>
+<nav>
+    @for (byte i = 0; i < 7; i++)
+    {
+        var col = i;
+        <span title="Click to play a piece" @onclick="() => PlayPiece(col)">🔽</span>
+    }
+</nav>
+
+<div>
+    <div class="board">
+        @for (var i = 0; i < 42; i++)
+        {
+            <span class="container">
+                <span></span>
+            </span>
+        }
+    </div>
+    @for (var i = 0; i < 42; i++)
+    {
+        <span class="@pieces[i]"></span>
+    }
+</div>
+
+@code {
+    private string[] pieces = new string[42];
+    private string winnerMessage = string.Empty;
+    private string errorMessage = string.Empty;
+
+    private int p1 = 0;
+    private int p2 = 0;
+
+    private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
+    private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
+
+    protected override void OnInitialized()
+    {
+        State.ResetBoard();
+    }
+
+    private void PlayPiece(byte col)
+    {
+        errorMessage = string.Empty;
+        try
+        {
+            var player = State.PlayerTurn;
+            var turn = State.CurrentTurn;
+            var landingRow = State.PlayPiece(col);
+            pieces[turn] = $"player{player} col{col} drop{landingRow}";
+        }
+        catch (ArgumentException ex)
+        {
+            errorMessage = ex.Message;
+        }
+        var winResult = State.CheckForWin();
+        winnerMessage = winResult switch
+        {
+            GameState.WinState.Player1_Wins => "Player 1 Wins!",
+            GameState.WinState.Player2_Wins => "Player 2 Wins!",
+            GameState.WinState.Tie => "It's a tie!",
+            _ => ""
+        };
+
+        if (winResult == GameState.WinState.Player1_Wins && errorMessage == string.Empty)
+        {
+            p1++;
+        }
+        else if (winResult == GameState.WinState.Player2_Wins && errorMessage == string.Empty)
+        {
+            p2++;
+        }
+    }
+
+    void ResetGame()
+    {
+        State.ResetBoard();
+        winnerMessage = string.Empty;
+        errorMessage = string.Empty;
+        pieces = new string[42];
+    }
+}
