@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\CSE 325\\MvcMovie\\MvcMovie.csproj": {}
+    "D:\\CSE 325\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "d:\\CSE 325\\MvcMovie\\MvcMovie.csproj": {
+    "D:\\CSE 325\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\CSE 325\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "D:\\CSE 325\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "d:\\CSE 325\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "D:\\CSE 325\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\bhott\\.nuget\\packages\\",
-        "outputPath": "d:\\CSE 325\\MvcMovie\\obj\\",
+        "outputPath": "D:\\CSE 325\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bhott\\AppData\\Roaming\\NuGet\\NuGet.Config"
